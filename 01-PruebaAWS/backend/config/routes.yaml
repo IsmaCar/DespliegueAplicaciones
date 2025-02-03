@@ -1,3 +1,0 @@
-hello:
- path: /api/hello
- controller: App\Controller\HelloController::index
