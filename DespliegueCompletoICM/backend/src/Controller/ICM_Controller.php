@@ -14,7 +14,7 @@ class ICM_Controller extends AbstractController
     {
         $this->connection = $connection;
     }
-    #[Route('/api/ICM', name: 'get_db')]
+    #[Route('/api/ICM', name: 'get_ICM')]
     public function index(): JsonResponse
     {
         // Consulta para recuperar el primer mensaje de la tabla "messages"
